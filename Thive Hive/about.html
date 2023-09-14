@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us</title>
+    <style>
+      body {
+        background-color: black  !important ;
+        
+      }
+
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+      }
+      .carousel:hover .carousel-control-prev,
+      .carousel:hover .carousel-control-next {
+        opacity: 1;
+      }
+      .footer .footer-socila-icon a {
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #F84E77;
+      color: #ffffff;
+      border-radius: 50%;
+      margin-right: 8px;
+      font-size: 15px;
+    }
+
+    .footer .footer-socila-icon a:hover {
+      background: #1baaa0;
+    }
+
+    .footer .footer-links {
+      margin: 0;
+    }
+
+    .footer .footer-links li+li {
+      padding-top: 10px;
+    }
+
+    .footer .footer-links li a {
+      position: relative;
+    }
+
+    .footer .footer-links li a:after {
+      content: "";
+      position: absolute;
+      width: 0px;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      height: 1px;
+      transition: ease all 0.35s;
+      background: #F84E77;
+    }
+
+    .footer .footer-links li a:hover:after {
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+    #body {
+      background-color: #000;
+      
+    }
+
+    #navbar {
+      background-color: #000;
+    }
+
+    #navbar ul li a {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      padding: 10px;
+      position: relative;
+      /* Add relative positioning */
+      text-decoration: none;
+      /* Remove the default underline */
+    }
+
+    #navbar ul li a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: #fb0404;
+      /* Change the underline color to red */
+      transition: width 0.2s ease-in;
+      /* Add a transition effect for smooth animation */
+      transform-origin: right;
+      /* Set the transform origin to the right side */
+    }
+
+    #navbar ul li a:hover::after {
+      width: 100%;
+      /* Expand the underline on hover */
+    }
+
+    .footer .footer-top {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .footer .footer-top h5,
+    .footer .footer-top .h5 {
+      position: relative;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    @media (min-width: 768px) {
+      .footer .footer-top {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .footer .footer-top {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    .footer .footer-border-top {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer .footer-border-top.dark {
+      border-top: 1px solid rgba(16, 16, 16, 0.1);
+    }
+
+    .footer .footer-border-bottom {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer .footer-border-bottom.dark {
+      border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+    }
+    </style>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/64330f6b31ebfa0fe7f759f4/1gtjn8ga1";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <link rel="icon" type="image/x-icon" href="logo_icon_rem.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+      integrity="sha512-4u0tPpLM7LWzXwk57o7LOi3B1w/jOALFNZTjF/nx1fQOvHmv/CMyL9XwtyTjAaxH8q3q3gMCktoz/7cd/tH/9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"
+      integrity="sha512-42
+"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+
+
+    </div>
+    <!-- navigation bar-->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand mt-2" href="index.html" id="thedesignic">
+          <img src="ThriveHive Logo-01 (1).png" alt="Logo" width="120" height="118" class="d-inline-block align-text-right" />
+          <p class="d-inline-block mt-8" style="color: white;font-family: 'Poppins', sans-serif;">ThriveHive</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-linkss1" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id="nav-linkss2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html" id="nav-linkss3">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" id="nav-linkss4">Contact Us</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="service.html" id="nav-linkss4">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pp.html" id="nav-linkss4">Privacy Policy</a>
+            </li>
+  
+  
+            </li>
+            <div class="form-check form-switch">
+              <!-- <input class="form-check-input" type="checkbox" role="switch" id="radiobtn1" style="
+                    margin-top: 0.3vw;
+                    float: right;
+                    margin-left: 40vw;
+                    font-size: 40px;
+                    background-color: #fc5356;
+                  " checked /> -->
+              <!-- <button class="btn btn-danger">Helllo </button> -->
+              <label class="form-check-label" for="radiobtn1"></label>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <div class="container" id="about-head">
+      <h1 class="my-4 mb-2" style="color: white;">ABOUT US</h1>
+      <hr style=" height: 0.5vh" />
+    </div>
+
+    <div class="container-fluid" id="whoarewe" style="padding: -8px;">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="ThriveHive Logo-01 (1).png" 
+            alt="Placeholder Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 my-auto" style="color: white;">
+          <h1 style="font-size: 4rem; font-weight: bold" >WHO ARE WE?</h1>
+          <p style="font-size: 1.2rem; line-height: 2rem">
+            <b>"ThriveHive"</b> is an agency for
+            transforming businesses through powerful marketing strategies. Our
+            journey began with a small team of experts who shared a common
+            vision: to provide exceptional marketing solutions that drive real
+            results for our clients. Over the years, we have grown into a
+            diverse and talented team of professionals with a wide range of
+            skills and expertise. Our commitment to excellence and a
+            client-centric approach have allowed us to build lasting
+            relationships and help businesses of all sizes achieve their goals.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <!-- our approach -->
+    <div class="container-fluid" id="ourapp" style="padding: 7vw" >
+      <div class="row">
+        <div class="col-md-6 my-auto" style="color: white;">
+          <h1 style="font-size: 4rem; font-weight: bold">WHY CHOOSE US</h1>
+          <p style="font-size: 1.2rem; line-height: 2rem">
+           <h3>Secure Future</h3>
+           <p>
+            We understand the challenges of the ever-changing marketing landscape. That's why we focus not 
+            only on short-term gains but also on building a secure future for your brand. 
+            Our strategies are designed to create a strong foundation that can weather any storm.
+           </p>
+          </p>
+
+          <p style="font-size: 1.2rem; line-height: 2rem">
+            <h3>Custom Solutions</h3>
+            <p>
+                We understand that every business is unique. That's why we take a personalized approach to 
+                create marketing strategies that align with your specific goals and challenges.
+            </p>
+           </p>
+
+           <p style="font-size: 1.2rem; line-height: 2rem">
+            <h3>Results-Driven</h3>
+            <p>
+                Our focus is on delivering measurable results. We use data-driven insights to continuously 
+                optimize your campaigns and ensure you get the best ROI.
+            </p>
+           </p>
+
+           <p style="font-size: 1.2rem; line-height: 2rem">
+            <h3>Transparency</h3>
+            <p>
+                We believe in open communication and complete transparency. You'll always know what we're 
+                doing, why we're doing it, and how it's benefiting your business.
+            </p>
+           </p>
+
+           <p style="font-size: 1.2rem; line-height: 2rem">
+            <h3>Client-Centric</h3>
+            <p>
+                Your success is our success. We're committed to building long-lasting relationships
+                and becoming a trusted partner in your business growth journey.
+            </p>
+           </p>
+
+        </div>
+        <div class="col-md-6 order-md-2">
+          <img
+            src="https://img1.wsimg.com/isteam/stock/e81lxjk/:/cr=t:0%25,l:26.02%25,w:47.95%25,h:100%25/rs=w:600,h:800,cg:true"
+            alt="Placeholder Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="ourgoal" style="padding: 7vw">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="the-6-key-elements-of-a-successful-website.jpg"
+            alt="Placeholder Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 my-auto" style="color: white;">
+          <h1 style="font-size: 4rem; font-weight: bold">OUR MISSION</h1>
+          <p style="font-size: 1.2rem; line-height: 2rem">
+            At ThriveHive, our mission is simple: to empower
+            your brand to reach new heights. We believe in the power of
+            innovative marketing strategies to drive growth, build brand
+            awareness, and connect with your target audience. Our team is
+            dedicated to crafting tailored solutions that not only meet but
+            exceed your expectations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+  <footer class="bg-dark-gradient footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-border-bottom pb-6 mb-5">
+          <div class="row">
+            <div class="col-lg-4 col-xl-3">
+              <h4 class="text-white">
+                Sign up to Get Latest Updates
+              </h4>
+            </div>
+            <div class="col-lg-4 col-xl-6">
+              <form class="d-flex flex-row mb-2 p-1 bg-white input-group">
+                <input type="email" class="form-control rounded-0 border-0" placeholder="you@yoursite.com">
+                <button class="btn btn-secondary rounded-0 flex-shrink-0" type="submit">Subscribe</button>
+              </form>
+            </div>
+            <div class="col-lg-4 col-xl-3">
+              <div class="text-lg-end text-white">
+                <span class="h6">Call Us On</span><br>
+                <span class="h3"><a href="https://api.whatsapp.com/send?phone=923368070914"
+                    style="color:white;text-decoration: none;" onmouseover="this.style.color='#F84E77'"
+                    onmouseout="this.style.color='white'">+92-336-8070914</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 my-4">
+            <div class="mb-4">
+              <img src="static/img/logo-light.svg" title="" alt="">
+            </div>
+            <div class="text-white mb-4">
+              <h1>
+                ThriveHive</h1>
+              <p>Reaching For The Highs</p>
+            </div>
+            <div class="nav footer-socila-icon">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-2 my-4">
+            <h5 class="text-white h6 mb-4">Quick Links</h5>
+            <ul class="list-unstyled white-link footer-links">
+              <li>
+                <a href="#" style="color: rgba(255, 255, 255, 0.65);">Home</a>
+              </li>
+              <li>
+                <a href="#" style="color: rgba(255, 255, 255, 0.65);">About</a>
+              </li>
+              <li>
+                <a href="portfolio.html" style="color: rgba(255, 255, 255, 0.65);">Portfolio</a>
+              </li>
+              <li>
+                <a href="service.html" style="color: rgba(255, 255, 255, 0.65);">Services</a>
+              </li>
+              <li>
+                <a href="contact.html" style="color: rgba(255, 255, 255, 0.65);">Contact us</a>
+              </li>
+              <li>
+                <a href="pp.html" style="color: rgba(255, 255, 255, 0.65);">Privacy Policy</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom footer-border-top light py-3">
+      <div class="container text-center">
+        <p class="m-0">© 2021 copyright <a href="#" class="text-reset">pxdraft</a></p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
